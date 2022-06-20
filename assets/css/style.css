@@ -1,0 +1,58 @@
+.heading{
+    text-align: center;
+}
+
+body{
+    background-image: url("/assets/images/bg.jpg");
+    background-size: cover;
+    background-position-x: center; /* Add this line */
+    background-position-y: center;
+    background-repeat: no-repeat;
+    
+}
+
+img{
+    opacity: 0.5;
+}
+
+.des{
+    display: flex;
+    justify-content: center;
+}
+
+.mainHeader{
+    text-align: center;
+    padding: 2em;
+    position: relative;
+
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+nav{
+    
+    padding:2rem;
+}
+
+.mainContainer{
+    display: flex;
+    flex-direction: row;
+
+}
+ul{
+    list-style-type: none;
+
+}
+
+
+
+.nav-item{
+    align-items: stretch;
+}
+
+
+.logo{
+    font-size: 2em;
+}
